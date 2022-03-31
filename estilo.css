@@ -1,0 +1,1125 @@
+/* ********************************* Generales ************************************************** */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Rubik', sans-serif;     */
+    font-family: 'Roboto', sans-serif;  
+}
+ 
+body {
+    background-color: white;
+    text-align: center;
+}
+
+/***** Contenedor Seccion  ******/
+.contSeccionVerde {
+    margin: .5rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px gray;
+    z-index: 100;
+    background-color: rgb(166, 191, 192);
+}
+
+.contSeccionVerde:hover {
+    background-color: rgb(117, 155, 156);
+
+}
+
+.contSeccionGris {
+    margin: .5rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    z-index: 100;
+    background-color: rgb(226, 222, 222);
+    text-align: start;
+}
+
+.contSeccionGris:hover {
+    background-color: lightgray;
+
+}
+
+.contSeccionBlanco {
+    margin: .5rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    z-index: 100;
+    background-color: white;
+    text-align: center;
+}
+
+.contSeccionBlanco:hover {
+    background-color: lightgray;
+
+}
+
+
+.contSeccionNegro {
+    margin: .5rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    z-index: 100;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.contSeccionNegro:hover {
+    background-color: gray;
+
+}
+
+
+
+ /***** Background  ******/
+.bgNegro {
+    background-color: black;
+}
+
+.bgGris {
+    background-color: gray;
+}
+
+.bgGrisClaro {
+    background-color: lightgray;
+}
+
+.bgSalmon {
+    background-color: salmon;
+}
+
+.bgTeal {
+    background-color: teal;
+}
+
+.bgCadetblue {
+    background-color: cadetblue;
+}
+
+.bgBlanco {
+    background-color: white;
+}
+
+/* ********************************* CURSOS ************************************************** */
+/********** Cursos Presentación *************/
+#cursos #presentacion {
+    background-color: lightgray;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+} 
+
+#cursos #presentacion .titulo {
+    font-size: 2rem;
+    text-align: left;    
+} 
+
+#cursos #presentacion .subtitulo {
+    font-size: 1.5rem;
+    text-align: left;    
+} 
+
+#cursos #presentacion .texto {
+    font-size: 1.3rem;
+    text-align: center;
+    font-style: italic;
+} 
+
+#cursos #presentacion .fondo {
+    background-image: url(../images/fondos/barra.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:top;
+    /* height:40vh; */
+} 
+
+#cursos #presentacion .contSeccion {
+    margin: .5rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    /* box-shadow: 3px 3px 3px gray; */
+    z-index: 100; 
+    background-color: white;
+}
+
+@media screen and (max-width:768px){
+    #cursos #presentacion {
+        padding: 1rem;
+    } 
+
+    #cursos #presentacion .contSeccion {
+        padding: 1rem;
+    }
+
+    #cursos #presentacion .fondo {
+        background-image: url(../images/fondos/barraVertical.png);
+        background-position: right;
+    } 
+
+    #cursos #presentacion .titulo {
+        font-size: 1.6rem;
+        padding-bottom: 1rem;
+    } 
+
+    #cursos #presentacion .subtitulo {
+        font-size: 1.3rem;
+    } 
+
+    #cursos #presentacion .texto {
+        font-size: 1.2rem;
+    }     
+}
+    
+
+
+/********** Cursos Descripción *************/
+#cursos #descripcion {
+    background-color: white;
+} 
+
+#cursos #descripcion .fondo {
+    background-image: url(../images/fondos/logoInvertido.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:top;
+} 
+
+#cursos #descripcion .contTexto {
+    padding: 1.5rem 1rem 1.5rem 5rem; 
+    text-align: left;
+} 
+
+
+#cursos #descripcion .titulo {
+    font-size: 2rem;
+    text-align: left;    
+    font-weight: bold;
+} 
+
+#cursos #descripcion .texto {
+    font-size: 1.3rem;
+} 
+
+#cursos #descripcion svg {
+    color: #dc3545;
+} 
+
+
+
+#cursos #descripcion .foto{
+    padding: 1.5rem 0rem 1.5rem 1rem;
+} 
+
+@media screen and (max-width:768px){
+
+    #cursos #descripcion .contTexto {
+        padding: 1.5rem; 
+    } 
+
+    #cursos #descripcion .titulo {
+        font-size: 1.5rem;
+    } 
+    
+    #cursos #descripcion .texto {
+        font-size: 1.1rem;
+    } 
+    
+    #cursos #descripcion .foto{
+        padding: 0rem;
+    } 
+}
+
+
+/********** Cursos Aplicación *************/
+#cursos #aplicacion .row {
+    background-color: black;
+} 
+
+
+#cursos #aplicacion .foto {
+    padding: 1.5rem 0rem 1.5rem 1rem;
+} 
+
+#cursos #aplicacion .contTexto {
+    padding: 1.5rem 5rem 1.5rem 1rem;
+    text-align: center;
+    color: white;
+    vertical-align: bottom ;
+    /* background-color: red; */
+} 
+
+#cursos #aplicacion .titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+#cursos #aplicacion .texto {
+    font-size: 1.9rem;
+    /* font-weight: bold; */
+    text-align: center;
+}
+
+@media screen and (max-width:1080px) {
+    #cursos #aplicacion .contTexto {
+        padding: 1.5rem;
+    } 
+
+    #cursos #aplicacion .titulo {
+        font-size: 1.8rem;
+        padding: 1rem;
+    }
+    
+    #cursos #aplicacion .texto {
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    #cursos #aplicacion .titulo {
+        font-size: 1.6rem;
+        padding: 1rem;
+
+    }
+    
+    #cursos #aplicacion .texto {
+        font-size: 1.4rem;
+    }
+
+    #cursos #aplicacion .foto {
+        padding: 0rem;
+    } 
+}
+
+/************* Cursos Modadlidad ************/
+#cursos #modalidadHerr .row {
+    vertical-align: middle;
+}
+
+#cursos #modalidadHerr .contSeccion {
+    padding: 2rem 1rem 2rem 1rem;
+    background-color: white;
+}
+
+#cursos #modalidadHerr .titulo {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+#cursos #modalidadHerr .modalidad .titulo hr {
+    width: 200px;
+    height:2px; 
+    align-self: center;
+    background-color: #dc3545;
+    display: inline-block;
+    
+}
+
+#cursos #modalidadHerr .herramientas .titulo  hr {
+    width: 260px;
+    height:2px; 
+    align-self: center;
+    background-color: #dc3545;
+    display: inline-block;
+    
+}
+
+
+#cursos #modalidadHerr .texto {
+    padding: 0rem 2rem 0rem 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-style: italic;
+}
+
+@media screen and (max-width:992px) { 
+
+    #cursos #modalidadHerr .titulo {
+        font-size: 1.5rem;
+        padding: 0;
+
+    }
+    
+    #cursos #modalidadHerr .texto {
+        font-size: 1.4rem;
+    }
+
+    #cursos #modalidadHerr .modalidad .titulo hr {
+        width: 160px;
+    }
+
+    #cursos #modalidadHerr .herramientas .titulo hr {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:768px) { 
+    #cursos #modalidadHerr .contSeccion {
+        padding: 1rem;
+    }
+    
+
+    #cursos #modalidadHerr .titulo {
+        font-size: 1.3rem;
+        padding: 0;
+    }
+    
+    #cursos #modalidadHerr .texto {
+        font-size: 1.2rem;
+    }
+
+    #cursos #modalidadHerr .modalidad .titulo hr {
+        width: 130px;
+    }
+
+    #cursos #modalidadHerr .herramientas .titulo hr {
+        width: 280px;
+    }
+
+}
+/********** Cursos Objetivos *************/
+#cursos #objetivos .row {
+    background-color: lightgray;
+} 
+
+
+#cursos #objetivos .foto {
+    padding: 1.5rem 1rem 1.5rem 1rem;
+} 
+
+#cursos #objetivos .contTexto {
+    padding: 2rem 2rem 1rem 2rem;
+    text-align: center;
+    color: black;
+    /* vertical-align: bottom ; */
+    /* background-color: red; */
+} 
+
+#cursos #objetivos .titulos {
+    font-size: 2rem;
+    /* font-weight: bold; */
+    text-align: center;
+    font-style: normal;
+    /* padding: 1rem 1rem 1rem 1rem; */
+}
+
+#cursos #objetivos .titulos hr {
+    width: 220px;
+    height:3px; 
+    align-self: center;
+    background-color: #dc3545;
+    display: inline-block;
+    
+}
+
+
+#cursos #objetivos .texto {
+    font-size: 1.7rem;
+    /* font-weight: bold; */
+    font-style: italic;
+    text-align: center;
+}
+
+#cursos #objetivos .txtResalt {
+    font-weight: bold;
+    /* font-style: italic; */
+}
+
+
+#cursos #objetivos .txtRojo {
+    /* font-weight: bold; */
+    color: #dc3545;
+}
+
+
+@media screen and (max-width:992px) { 
+    #cursos #objetivos .titulos {
+        font-size: 1.6rem;
+        padding: 1rem;
+    }
+    
+    #cursos #objetivos .titulos hr {
+        width: 180px;
+    }
+    
+    #cursos #objetivos .texto {
+        font-size: 1.4rem;
+    }    
+}
+
+@media screen and (max-width:768px) { 
+    #cursos #objetivos .contTexto {
+        padding: 1rem;
+
+    } 
+
+    #cursos #objetivos .titulos {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    
+    #cursos #objetivos .titulos hr {
+        width: 160px;
+    }
+    
+    #cursos #objetivos .texto {
+        font-size: 1.3rem;
+    }    
+
+    #cursos #objetivos .foto {
+        padding: 0rem;
+    } 
+}
+
+
+
+/* ********************************* CONSULTAS ************************************************** */
+#consultas {
+    background-color: lightgray;
+    padding: 1.5rem 1rem 1.5rem 1rem;
+    color: black;
+} 
+
+#consultas #encabezado .titulo {
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;    
+    margin-bottom: 1rem;
+} 
+
+#consultas #encabezado .subtitulo {
+    font-size: 1.2rem;
+    text-align: center;    
+    margin-bottom: 2rem;
+} 
+
+#consultas #formulario .col-md-6 {
+    margin-bottom: 2rem;
+} 
+
+#consultas #formulario .col-md-4 {
+    margin-bottom: 2rem;
+} 
+
+#consultas #formulario .col-12 {
+    margin-bottom: 2rem;
+} 
+
+#consultas #formulario label {
+    margin-bottom: .3rem;
+} 
+
+
+
+@media screen and (max-width:992px) {
+    #consultas #encabezado .subtitulo {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    } 
+}
+
+@media screen and (max-width:768px) {
+    #consultas #encabezado .subtitulo {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    } 
+
+    #consultas #formulario .col-12 {
+        margin-bottom: 1.7rem;
+    }  
+
+    #consultas #encabezado .titulo {
+        font-size: 1.4rem;
+    } 
+    
+    #consultas #encabezado .subtitulo {
+        font-size: 1rem;
+    }     
+}
+
+@media screen and (max-width:576px) {
+    #consultas #encabezado .subtitulo {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    } 
+}
+
+/* ********************************* NOSOTROS ************************************************** */
+/********** Presentación - Nuestra Experiencia  *************/
+#nosotros #presentacion .nuestraExperiencia {
+    background-color: black;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+
+} 
+
+#nosotros #presentacion .fondoNuestExp {
+    background-image: url(../images/nosotros/porcheBlancoSolarizado.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:top;
+    height:550px;
+} 
+
+#nosotros #presentacion .nuestraExperiencia .img-fluid {
+    padding: 4rem 1rem 2rem 1rem;
+    /* max-width: 90vh; */
+    /* width: 80vh; */
+    display: inline-block;
+} 
+
+#nosotros #presentacion .nuestraExperiencia .titulo {
+    font-size: 2.2rem;
+    text-align: center;    
+    padding: 1.5rem 1rem 1rem 1rem;
+} 
+
+#nosotros #presentacion .nuestraExperiencia .subTitulo {
+    font-size: 1.6rem;
+    text-align: center;
+    font-style: italic;
+    color: #dc3545;
+    padding: 0rem 5rem 1rem 5rem;
+} 
+
+#nosotros #presentacion .nuestraExperiencia .texto {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0rem 5rem 2.5rem 5rem;
+}
+
+#nosotros #presentacion .nuestraExperiencia hr {
+    width: 200px;
+    height:3px; 
+    align-self: center;
+    display: inline-block;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+@media screen and (max-width:1260px) {  
+    /* #nosotros #presentacion .fondoNuestExp {
+        height:480px;
+    }      */
+    /* #nosotros #presentacion .nuestraExperiencia .titulo {
+        font-size: 1.9rem;
+        padding: 0rem 1rem 0rem 1rem;
+    } 
+    
+    #nosotros #presentacion .nuestraExperiencia .texto {
+        font-size: 1.3rem;
+    } */
+} 
+
+
+@media screen and (max-width:992px) { 
+    #nosotros #presentacion .nuestraExperiencia .texto {
+        padding: 0rem 1rem 2.5rem 1rem;
+    }
+    
+    /* #nosotros #presentacion .nuestraExperiencia hr {
+        width: 180px;
+    }
+
+    #nosotros #presentacion .nuestraExperiencia .img-fluid {
+        width:75vh;
+    }  */
+    
+}
+
+@media screen and (max-width:790px) { 
+    #nosotros #presentacion .fondoNuestExp {
+        height:470px;
+    }     
+
+    #nosotros #presentacion .nuestraExperiencia .titulo {
+        font-size: 1.7rem;
+    } 
+    
+    #nosotros #presentacion .nuestraExperiencia .subTitulo {
+        font-size: 1.4rem;
+    } 
+
+    #nosotros #presentacion .nuestraExperiencia .texto {
+        font-size: 1.3rem;
+        padding: 0rem 2rem 2.5rem 2rem;
+    }
+
+    #nosotros #presentacion .nuestraExperiencia .smNone {
+        display: none;
+    }
+
+    #nosotros #presentacion .nuestraExperiencia hr {
+        width: 140px;
+    }    
+    
+    #nosotros #presentacion .nuestraExperiencia .img-fluid {
+        max-width:60vh;
+    } 
+}
+
+@media screen and (max-width:585px) { 
+    #nosotros #presentacion .nuestraExperiencia .texto {
+        padding: 0rem 1rem 2.5rem 1rem;
+    }    
+    #nosotros #presentacion .fondoNuestExp {
+        height:500px;
+    }       
+}
+
+@media screen and (max-width:540px) { 
+    #nosotros #presentacion .fondoNuestExp {
+        height:550px;
+    }        
+}
+
+@media screen and (max-width:380px) { 
+    #nosotros #presentacion .fondoNuestExp {
+        height:600px;
+    }        
+}
+
+
+/********** Presentación - Mercedes Benz *************/
+#nosotros #presentacion .mercedesBenz {
+    background-color: black;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+
+} 
+
+
+#nosotros #presentacion .mercedesBenz .fondoIzq {
+    background-image: url(../images/nosotros/derFondoMercedes4.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:top;
+    /* height:443px; */
+}  
+
+#nosotros #presentacion .mercedesBenz .fondoDer {
+    background-image: url(../images/nosotros/izqLogoMercedes.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    /* height:450px; */
+}  
+
+#nosotros #presentacion .mercedesBenz .texto {
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    font-style: italic;
+    padding: 7.5rem 5rem 2.5rem 5rem;
+}
+
+@media screen and (max-width:1118px) { 
+    #nosotros #presentacion .mercedesBenz .texto {
+        padding: 7.5rem 2rem 2.5rem 2rem;
+    }   
+}
+
+@media screen and (max-width:990px) { 
+    #nosotros #presentacion .mercedesBenz .texto {
+        padding: 7.5rem 1rem 2.5rem 1rem;
+    }   
+}
+
+@media screen and (max-width:768px) { 
+    #nosotros #presentacion .mercedesBenz .fondoDer {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width:600px) { 
+    #nosotros #presentacion .mercedesBenz .texto {
+        font-size: 1.3rem;
+        padding: 6rem 1rem 1.5rem 1rem;
+    }   
+}
+
+
+/********** Presentación - Compañias Seguro  *************/
+#nosotros #presentacion .companiasSeguro {
+    background-color: lightgrey;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+
+} 
+#nosotros #presentacion .companiasSeguro .subTitulo {
+    font-size: 1.6rem;
+    text-align: center;
+    /* font-style: italic; */
+    color: rgb(88, 88, 177);
+    padding: 3rem 1rem 3.5rem 1rem;
+} 
+
+#nosotros #presentacion .companiasSeguro .texto {
+    font-style: italic;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0rem 0rem 1.5rem 0rem;
+}
+
+#nosotros #presentacion .companiasSeguro .img-fluid {
+    padding: 0rem 0rem 1.5rem 0rem;
+    /* display: inline-block; */
+} 
+
+
+#nosotros #presentacion .companiasSeguro hr {
+    width: 200px;
+    height:3px; 
+    align-self: center;
+    display: inline-block;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+@media screen and (max-width:1260px) {  
+    /* #nosotros #presentacion .fondoNuestExp {
+        height:480px;
+    }      */
+    /* #nosotros #presentacion .companiasSeguro .titulo {
+        font-size: 1.9rem;
+        padding: 0rem 1rem 0rem 1rem;
+    } 
+    
+    #nosotros #presentacion .companiasSeguro .texto {
+        font-size: 1.3rem;
+    } */
+} 
+
+
+@media screen and (max-width:992px) { 
+    #nosotros #presentacion .companiasSeguro .texto {
+        padding: 0rem 1rem 2.5rem 1rem;
+    }
+    
+    /* #nosotros #presentacion .companiasSeguro hr {
+        width: 180px;
+    }
+
+    #nosotros #presentacion .companiasSeguro .img-fluid {
+        width:75vh;
+    }  */
+    
+}
+
+@media screen and (max-width:790px) { 
+    #nosotros #presentacion .fondoNuestExp {
+        height:470px;
+    }     
+
+    #nosotros #presentacion .companiasSeguro .titulo {
+        font-size: 1.7rem;
+    } 
+    
+    #nosotros #presentacion .companiasSeguro .subTitulo {
+        font-size: 1.4rem;
+    } 
+
+    #nosotros #presentacion .companiasSeguro .texto {
+        font-size: 1.3rem;
+        padding: 0rem 2rem 2.5rem 2rem;
+    }
+
+    #nosotros #presentacion .companiasSeguro .smNone {
+        display: none;
+    }
+
+    #nosotros #presentacion .companiasSeguro hr {
+        width: 140px;
+    }    
+    
+    #nosotros #presentacion .companiasSeguro .img-fluid {
+        max-width:60vh;
+    } 
+}
+
+@media screen and (max-width:585px) { 
+    #nosotros #presentacion .companiasSeguro .texto {
+        padding: 0rem 1rem 2.5rem 1rem;
+    }    
+    #nosotros #presentacion .fondoNuestExp {
+        height:500px;
+    }       
+}
+
+@media screen and (max-width:540px) { 
+    #nosotros #presentacion .fondoNuestExp {
+        height:550px;
+    }        
+}
+
+@media screen and (max-width:380px) { 
+    #nosotros #presentacion .fondoNuestExp {
+        height:600px;
+    }        
+}
+
+
+
+/********** Principales valores  *************/
+
+#nosotros #valores {
+    background-color: white;
+    /* padding: 1.5rem 3rem 1.5rem 3rem; */
+} 
+
+#nosotros #valores .titulo {
+    font-size: 2rem;
+    text-align: center;    
+    color: black;
+    padding: 2rem 0 2rem 0;
+} 
+
+#nosotros #valores .subtitulo {
+    font-size: 1.5rem;
+    text-align: left;    
+} 
+
+#nosotros #valores .texto {
+    font-size: 1.3rem;
+    text-align: center;
+    font-style: italic;
+} 
+
+#nosotros #valores .fondo {
+    background-image: url(../images/nosotros/fondoTela.png);
+    background-size:contain;
+    background-repeat:repeat;
+    background-position:top;
+    /* height:40vh; */
+} 
+
+#nosotros #valores .contSeccion {
+    margin: .5rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    /* box-shadow: 3px 3px 3px gray; */
+    z-index: 100; 
+    background-color: white;
+}
+
+@media screen and (max-width:768px){
+    #nosotros #valores {
+        padding: 1rem;
+    } 
+
+    #nosotros #valores .contSeccion {
+        padding: 1rem;
+    }
+
+    #nosotros #valores .fondo {
+        background-image: url(../images/fondos/barraVertical.png);
+        background-position: right;
+    } 
+
+    #nosotros #valores .titulo {
+        font-size: 1.6rem;
+        padding-bottom: 1rem;
+    } 
+
+    #nosotros #valores .subtitulo {
+        font-size: 1.3rem;
+    } 
+
+    #nosotros #valores .texto {
+        font-size: 1.2rem;
+    }     
+}
+    
+
+
+
+
+
+/**************************** VARIOS ********************************************/
+/********** Imagenes contenido *************/
+.bgMercedesAntiguo {
+    background-image: url(../images/contenido/mercedesrojoLargo.png);
+    padding: 2rem;
+}
+
+.bgLogoInvertido {
+    background-image: url(../images/logoInvertido.png);
+}
+
+.bgBarra {
+    background-image: url(../images/fondos/barra.png);
+    /* height: 80vh; */
+}
+
+.bgLogoPuente {
+    background-image: url(../images/fondos/elPuenteFotoINicial.jpg);
+}
+
+
+ /***** Animations  ******/
+#header a:hover {
+    animation: heartBeat; 
+    animation-duration: 1s;
+    --animate-repeat: 4;
+}
+
+#contacto a:hover {
+    animation: heartBeat; 
+    animation-duration: 1s;
+    --animate-repeat: 4;
+}
+
+/***** txt  ******/
+.txtMenu {
+    font-size: 1.1rem;
+    
+}
+
+.txtTituloIniGrande {
+    font-size: 1.8rem;
+    font-weight: bold;
+    /* color: #dc3545; */
+    text-align: left;
+}
+
+.txtTituloIniChico {
+    font-size: 1.7rem;
+    font-weight: bold;
+    /* font-style: italic; */
+    color: black;
+    text-align: left;
+}
+
+.txtSubTituloIni {
+    font-size: 1.3rem;
+    /* font-weight: bold; */
+    text-align: left;
+    /* font-style: italic; */
+    /* color: #dc3545; */
+}
+
+.txtRojo {
+    color: #dc3545;
+}
+
+/* *********** Sección ************/
+.txtTituloSeccion {
+    font-size: 1.3rem;
+    text-align: center;
+    font-style: italic;
+}
+
+.txtTitSeccionResalt {
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.txtSubtSeccion {
+    font-size: 1.2rem;
+}
+
+
+.txtSeccion {
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.txtSeccionResalt {
+    font-size: 1.2rem;
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+}
+
+.txtContacto {
+    font-size: 1rem;
+}
+
+.txtTitulo01Contacto {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.txtTitulo02Contacto {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.txtSubtituloContacto {
+    font-size: 1rem;
+}
+
+
+#footer-fin a {
+    text-decoration: none;
+    display: inline-block;
+}
+                 
+#footer-fin a:hover {
+    animation: heartBeat; 
+    animation-duration: 1s;
+    --animate-repeat: 4;
+}
+
+.txtCreditos {
+    font-size: 0.9rem;
+}
+
+
+/* ******************************** whatsapp icono ******************************* */
+.float {
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    bottom: 10px;
+    left: 5px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 3px 3px 3px black;
+    z-index: 200;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  	background-color:#fff;
+}
+
+.my-float {
+  width: 35px;
+  height: 35px;
+  margin-top: -5px;
+}
+
+
+
+/* ******************************** flecha arriba  ******************************* */
+.flechaArriba {
+    position: fixed;
+    bottom: 170px;
+    right: 5px;
+    color: #dc3545;
+    z-index: 200;
+}
+
+/* .flechaArriba {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 10px;
+    left: 1310px;
+    color: #dc3545;
+    z-index: 200;
+} */
